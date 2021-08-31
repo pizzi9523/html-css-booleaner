@@ -8,3 +8,18 @@ height: 10rem;
   width: 20rem;
   padding-top: 4rem;
 }
+
+#titolo{
+  margin-bottom: 0;
+  font-size: 75px;
+}
+
+.sottotitolo{
+margin: 0;
+color: grey;
+}
+
+#autore{
+  color: #4ea0ff;
+}
+
