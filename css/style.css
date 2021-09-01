@@ -1,45 +1,52 @@
+/*header*/
 #site_header{
   background-image: url("/img/pattern.png");
   background-color: #4ea0ff;
-  height: 10rem;
+  height: 11rem;
 }
 
 #logo{
   width: 20rem;
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
+/*main*/
+/*titolo*/
 #titolo{
   margin-bottom: 0;
   font-size: 5rem;
 }
 
 .sottotitolo{
-  margin: 0;
   color: grey;
+  font-size: 2rem;
+  margin-bottom: 25px;
 }
 
-.data{
-  margin-bottom: 2rem;
-}
 
 #autore{
   color: #4ea0ff;
 }
 
+/*foto*/
 .tim-foto{
  height: 500px;
  width: 45%;
 }
 
-h4{
-  margin: 0;
+.comment{
+ font-size: 20px;
+ font-weight: bold;
 }
 
+/*content*/
 .evidenziato{
   background-color: yellow;
 }
 
+table{
+  border-spacing: 0;
+}
 #head-table{
   background-color: #4ea0ff;
   color: white;
@@ -53,11 +60,14 @@ td{
   width: 32%;
 }
 
-#foot-title{
+/*interest*/
+#interest-title{
+  font-size: 20px;
   color: grey;
+  margin-bottom: 0;
 }
 
-.image-foot{
+.image-interest{
   width: 25rem;
   height: 18rem;
   background-size: cover;
@@ -70,8 +80,13 @@ td{
   background-image: url("/img/graph.jpg");
 }
 
-.image-title-foot{
+.image-title-interest{
   color: white;
   padding: 15px 10px;
-  font-size: 25px;
+  font-size: 38px;
+}
+
+footer{
+  margin-top: 15px;
+  font-size: 20px;
 }
